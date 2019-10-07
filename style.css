@@ -1,5 +1,5 @@
 body{
-    background-color: cornsilk;
+    background-color: #fff8dc;
     font-family: 'Pontano Sans', sans-serif;
 }
 
@@ -10,6 +10,7 @@ body{
 
 header{
     text-align: center;
+    margin-bottom: 50px;
 }
 
 blockquote{
@@ -18,4 +19,72 @@ blockquote{
     background-color: #eee;
     text-align: left;
     padding-left: 5px;
+    box-shadow: 10px 10px 18px 0px rgba(184,173,184,1);
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.link1{
+    background-color: #94AE89;
+}
+.link2{
+    background-color: #A8BCA1;
+}
+.link3{
+    background-color: #C0DA74;
+}
+.link4{
+    background-color: #BEEDAA;
+}
+.link5{
+    background-color: #7E846B;
+}
+section{
+    border: 2px solid black;
+    margin: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+#section1{
+    background-color: #94AE89;
+}
+
+#section2{
+    background-color: #A8BCA1;
+}
+
+#section3{
+    background-color: #C0DA74;
+}
+
+#section4{
+    background-color: #BEEDAA;
+}
+
+#section5{
+    margin-bottom: 50px;
+    background-color: #7E846B;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 20px;
 }
