@@ -1,6 +1,6 @@
 body{
     background-color: #fff8dc;
-    font-family: 'Pontano Sans', sans-serif;
+    font-family: 'Yeseva One', cursive;
 }
 
 #wrapper{
@@ -87,4 +87,15 @@ section{
 footer{
     text-align: center;
     margin-bottom: 20px;
+}
+
+article{
+    font-family: 'Pontano Sans', sans-serif;
+}
+h3{
+    font-size: 25px;
+}
+
+h1{
+    text-transform: uppercase;
 }
